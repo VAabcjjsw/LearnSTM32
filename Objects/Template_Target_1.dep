@@ -1,0 +1,53 @@
+Dependencies for Project 'Template', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_stm32f429xx.s)(0x567FB5A5)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__UVISION_VERSION SETA 542" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
+F (.\test.c)(0x6846D356)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart-D__UVISION_VERSION="542" -DSTM32F429xx -DSTM32F429xx-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (.\SYSTEM\sys\sys.h)(0x5714A215)
+I (.\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (.\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (.\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (.\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+I (.\SYSTEM\usart\usart.h)(0x569F345C)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (.\SYSTEM\delay\delay.h)(0x57146005)
+F (.\SYSTEM\delay\delay.c)(0x57145F50)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart-D__UVISION_VERSION="542" -DSTM32F429xx -DSTM32F429xx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (SYSTEM\delay\delay.h)(0x57146005)
+I (.\SYSTEM\sys\sys.h)(0x5714A215)
+I (.\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (.\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (.\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (.\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+F (.\SYSTEM\sys\sys.c)(0x614BE4E9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart-D__UVISION_VERSION="542" -DSTM32F429xx -DSTM32F429xx-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (SYSTEM\sys\sys.h)(0x5714A215)
+I (SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+F (.\SYSTEM\usart\usart.c)(0x569F345C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart-D__UVISION_VERSION="542" -DSTM32F429xx -DSTM32F429xx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\SYSTEM\sys\sys.h)(0x5714A215)
+I (.\SYSTEM\sys\stm32f4xx.h)(0x56442678)
+I (.\SYSTEM\sys\stm32f429xx.h)(0x56442678)
+I (.\SYSTEM\sys\core_cm4.h)(0x56442610)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (.\SYSTEM\sys\core_cmInstr.h)(0x56442610)
+I (.\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmFunc.h)(0x56442610)
+I (.\SYSTEM\sys\core_cmSimd.h)(0x56442610)
+I (.\SYSTEM\sys\system_stm32f4xx.h)(0x56442676)
+I (SYSTEM\usart\usart.h)(0x569F345C)
+I (D:\Program Files\Arm\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)

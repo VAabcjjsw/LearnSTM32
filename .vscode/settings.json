@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.compilerPath": "d:\\workspace\\STM32\\USER\\Template.uvprojx",
+    "files.associations": {
+        "sys.h": "c"
+    }
+}
